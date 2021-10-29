@@ -1,0 +1,19 @@
+{
+  "name": "yarn-crash-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bob smith",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "4.17.4",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "nodemon": "^2.0.12"
+  }
+}

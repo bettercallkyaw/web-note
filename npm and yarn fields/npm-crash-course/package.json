@@ -1,0 +1,15 @@
+{
+  "name": "npm-crash-course",
+  "version": "1.0.0",
+  "description": "- npm -v\r - npm --version\r - npm init\r - npm init --yes\r - npm config set init-author-name \"John Doe\"\r - npm set init-license \"MIT\"\r - npm get init-author-name\r - npm config get init-author-name\r - npm config delete init-author-name\r - npm config delete init-license",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"live-server"
+  },
+  "author": "bob smith",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
